@@ -1,0 +1,47 @@
+nav.navbar.navbar-light{
+	background-color: #253B80;
+}
+
+body{
+	background-color: #F0F0F0;
+}
+
+form  .container{
+	background-color: #ffffff;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+a.navbar-brand {
+    padding-left: 9rem;
+}
+
+h1.mb-4.text-center{
+	color: #259CB2;
+	padding-top: 20px;
+}
+
+.form-check.col {
+    padding-left: 2.3rem;
+}
+
+/*Media Queries*/
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+	
+	 h5 {
+        font-size: 1rem;
+    }
+	
+	body{
+		font-size: 14px;
+	}
+	
+	a.navbar-brand {
+    padding-left: 2.5rem;
+	}
+
+}
